@@ -57,7 +57,7 @@ if len(sys.argv) > 1:
 	model.load(sys.argv[1])
 	print("Model loaded from: " + sys.argv[1])
 
-for n in range(332, 1000):
+for n in range(1000):
 	model.fit(X, Y, n_epoch=10, snapshot_epoch=False)
 	if len(sys.argv) > 1:
 		model.save(sys.argv[1])
