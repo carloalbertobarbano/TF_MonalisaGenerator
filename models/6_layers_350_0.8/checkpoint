@@ -1,0 +1,2 @@
+model_checkpoint_path: "monalisa_generator.tfm"
+all_model_checkpoint_paths: "monalisa_generator.tfm"
