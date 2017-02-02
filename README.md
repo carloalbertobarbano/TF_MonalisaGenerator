@@ -1,6 +1,6 @@
 # TF_MonalisaGenerator
 
-![Image generated](https://raw.githubusercontent.com/carloalbertobarbano/TF_MonalisaGenerator/master/outputs/6_layers_350_0.8/monalisa_output_3890.jpg)
+![Image generated](https://i.imgur.com/oRSJ9hq.gifv)
 
 Deep Neural Network (based on TensorFlow) learning to generate an image of Monalisa.
 
