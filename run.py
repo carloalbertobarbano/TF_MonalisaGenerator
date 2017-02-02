@@ -47,6 +47,7 @@ network = fully_connected(network, 350, activation='sigmoid', weights_init=tnorm
 network = fully_connected(network, 350, activation='sigmoid', weights_init=tnorm)
 network = fully_connected(network, 350, activation='sigmoid', weights_init=tnorm)
 network = fully_connected(network, 3, activation='sigmoid', weights_init=tnorm)
+
 learning_rate = 0.8
 regr = regression(network, optimizer='sgd', loss='mean_square',
 					learning_rate = learning_rate)
